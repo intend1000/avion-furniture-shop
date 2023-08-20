@@ -42,9 +42,15 @@
 }
 
 .main{
-
-}
-
-.footer{
-
+  .container{
+    .hero__block{
+      display: grid;
+      .hero__block_one,
+      .hero__block_two,
+      .hero__block_three{
+        padding: 10px;
+        border: 1px solid black;
+      }
+    }
+  }
 }
