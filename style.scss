@@ -57,18 +57,25 @@ nav {
         line-height: 140%;
         color: #fff;
       }
-      button {
-        padding: 16px 32px;
+      .viewbutton {
+        display: inline-block;
         margin: 41px 0 0 60px;
+        height: 56px;
+        width: 170px;
+        line-height: 56px;
+        background-color: rgba(249, 249, 249, 0.15);
+        color: #fff;
+        text-align: center;
+        font-family: 'Satoshi-Variable';
         font-size: 16px;
+        font-style: normal;
         font-weight: 400;
-        line-height: 150%;
-        border: none;
-        background: rgba(249, 249, 249, 0.15);
-        a {
-          color: #fff;
+        transition: background-color 0.5s;
+        :hover{
+          background-color: rgba(249, 249, 249, 0.524);
         }
       }
+      
     }
     .hero__block_item.two {
       grid-row: 2; /* Блок two будет занимать вторую строку */
@@ -88,14 +95,51 @@ nav {
     }
   }
   .brand__difference {
+    margin-bottom: 86px;
     h3 {
       padding: 60px 0 51px;
       text-align: center;
     }
-    .brand__difference__items{
-      display: flex;
-      .brand__difference__item{
-
+    .brand__difference__items {
+      display: inline-flex;
+      flex-direction: row;
+      .brand__difference__item {
+        h4 {
+          padding-top: 16px;
+          margin: 0;
+        }
+        p {
+          padding-top: 8px;
+          margin: 0;
+        }
+      }
+      .brand__difference__item.one {
+        padding-right: 58px;
+      }
+      .brand__difference__item.two {
+        padding-right: 59px;
+      }
+      .brand__difference__item.three {
+        padding-right: 91px;
+      }
+      .brand__difference__item.four {
+        h4 {
+          padding-top: 13px;
+          margin: 0;
+        }
+        p {
+          padding-top: 11px;
+          margin: 0;
+        }
+      }
+      // .brand__difference__item.one svg,
+      // .brand__difference__item.two svg,
+      // .brand__difference__item.three svg,
+      // .brand__difference__item.four svg{
+      //   padding-bottom: 18px;
+      // }
+      p {
+        font-size: 16px;
       }
     }
   }

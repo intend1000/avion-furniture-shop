@@ -79,17 +79,24 @@ nav .container ul li {
   line-height: 140%;
   color: #fff;
 }
-.main .hero__block .hero__block_item.one button {
-  padding: 16px 32px;
+.main .hero__block .hero__block_item.one .viewbutton {
+  display: inline-block;
   margin: 41px 0 0 60px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-  border: none;
-  background: rgba(249, 249, 249, 0.15);
-}
-.main .hero__block .hero__block_item.one button a {
+  height: 56px;
+  width: 170px;
+  line-height: 56px;
+  background-color: rgba(249, 249, 249, 0.15);
   color: #fff;
+  text-align: center;
+  font-family: "Satoshi-Variable";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.main .hero__block .hero__block_item.one .viewbutton :hover {
+  background-color: rgba(249, 249, 249, 0.524);
 }
 .main .hero__block .hero__block_item.two {
   -ms-grid-row: 2;
@@ -111,12 +118,47 @@ nav .container ul li {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.main .brand__difference {
+  margin-bottom: 86px;
+}
 .main .brand__difference h3 {
   padding: 60px 0 51px;
   text-align: center;
 }
 .main .brand__difference .brand__difference__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.main .brand__difference .brand__difference__items .brand__difference__item h4 {
+  padding-top: 16px;
+  margin: 0;
+}
+.main .brand__difference .brand__difference__items .brand__difference__item p {
+  padding-top: 8px;
+  margin: 0;
+}
+.main .brand__difference .brand__difference__items .brand__difference__item.one {
+  padding-right: 58px;
+}
+.main .brand__difference .brand__difference__items .brand__difference__item.two {
+  padding-right: 59px;
+}
+.main .brand__difference .brand__difference__items .brand__difference__item.three {
+  padding-right: 91px;
+}
+.main .brand__difference .brand__difference__items .brand__difference__item.four h4 {
+  padding-top: 13px;
+  margin: 0;
+}
+.main .brand__difference .brand__difference__items .brand__difference__item.four p {
+  padding-top: 11px;
+  margin: 0;
+}
+.main .brand__difference .brand__difference__items p {
+  font-size: 16px;
 }
