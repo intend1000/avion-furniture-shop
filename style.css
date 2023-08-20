@@ -77,6 +77,7 @@ nav .container ul li {
   font-size: 32px;
   font-weight: 400;
   line-height: 140%;
+  color: #fff;
 }
 .main .hero__block .hero__block_item.one button {
   padding: 16px 32px;
@@ -97,6 +98,7 @@ nav .container ul li {
 }
 .main .hero__block .hero__block_item.two p {
   padding: 196px 98px 60px 60px;
+  color: #fff;
 }
 .main .hero__block .hero__block_item.three {
   -ms-grid-column: 2;
@@ -112,4 +114,9 @@ nav .container ul li {
 .main .brand__difference h3 {
   padding: 60px 0 51px;
   text-align: center;
+}
+.main .brand__difference .brand__difference__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }

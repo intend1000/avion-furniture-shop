@@ -55,6 +55,7 @@ nav {
         font-size: 32px;
         font-weight: 400;
         line-height: 140%;
+        color: #fff;
       }
       button {
         padding: 16px 32px;
@@ -74,6 +75,7 @@ nav {
       background: rgba(42, 37, 75, 1);
       p {
         padding: 196px 98px 60px 60px;
+        color: #fff;
       }
     }
     .hero__block_item.three {
@@ -89,6 +91,12 @@ nav {
     h3 {
       padding: 60px 0 51px;
       text-align: center;
+    }
+    .brand__difference__items{
+      display: flex;
+      .brand__difference__item{
+
+      }
     }
   }
 }

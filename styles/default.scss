@@ -30,8 +30,10 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'ClashDisplay-Variable';
+  color: rgba(42, 37, 75, 1);
 }
 
 h1 {
@@ -67,6 +69,7 @@ p{
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  color: rgba(42, 37, 75, 1);
 }
 
 .container {
