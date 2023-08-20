@@ -1,5 +1,5 @@
 .header {
-  width: 100vw;
+  width: 100%;
 }
 .header .header__top {
   display: -webkit-box;
@@ -32,13 +32,14 @@
 }
 .header h3 {
   font-size: 24px;
-  color: #22202E;
+  color: #22202e;
   font-weight: 400;
 }
 .header a {
   text-align: center;
 }
-.header .container nav ul {
+
+nav .container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,8 +50,13 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.header .container nav ul li {
+nav .container ul li {
   font-size: 16px;
-  color: #726E8D;
+  color: #726e8d;
   padding: 20px 0;
+}
+
+.main .container .hero__block {
+  display: -ms-grid;
+  display: grid;
 }
