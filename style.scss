@@ -42,9 +42,53 @@ nav {
 }
 
 .main {
-  .container {
-    .hero__block {
-      display: grid;
+  .hero__block {
+    margin: 60px 0;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Первая колонка автоматически подстраивается под содержимое, вторая занимает оставшееся пространство */
+    align-items: stretch; /* Равнять элементы по высоте */
+    width: 100%;
+    color: #fff;
+    .hero__block_item.one {
+      grid-row: span 1; /* Блок one будет занимать одну строку */
+      background: rgba(42, 37, 75, 1);
+      h2 {
+        padding: 60px 187px 0 60px;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 140%;
+      }
+      button {
+        padding: 16px 32px;
+        margin: 41px 0 0 60px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        border: none;
+        background: rgba(249, 249, 249, 0.15);
+        a {
+          color: #fff;
+        }
+      }
+    }
+    .hero__block_item.two {
+      grid-row: 2; /* Блок two будет занимать вторую строку */
+      background: rgba(42, 37, 75, 1);
+      p {
+        padding: 196px 98px 60px 60px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+    }
+    .hero__block_item.three {
+      grid-column: 2; /* Поместить третий блок во вторую колонку */
+      grid-row: span 2; /* Блок three будет занимать две строки */
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
     }
   }
 }
